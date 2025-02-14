@@ -1,0 +1,17 @@
+/* o #app faz referência a div principal do html -> identificação de elementos */
+#app {
+    text-align: center;
+    /* background-color: aqua; */
+    width: 800px;
+    margin: auto;
+}
+
+.characters {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/* chamo a classe item e pego a tag html img para manipalar o style*/
+.item img {
+    max-width: 200px;
+}
