@@ -122,5 +122,42 @@ document.getElementById('user-name').innerHTML = userName
 
 
 // Arrays //
+    //Em todo Array a primeira posição é determinada como posição Zero
+        // var gaveteiro = ['Meias', 'Gravatas', 'Documentos', 'Salgadinhos']
 
-    
+        // console.log(gaveteiro[3])
+
+        // var personagens = ['Mestre Yoda', 'Luke Skywalker', 'Princesa Leia', 'Darth Vader']
+
+    //adiciona mais um item no Array, sempre na ultima posição
+        // personagens.push('C3pO')
+
+        // personagens.push('R2D2')
+
+        // console.log(personagens)
+
+
+    //remove o ultimo item da lista, sempre na ultima posição
+        // personagens.pop()
+
+    // Filtra tudo com excessão do item 'Darth Vader'
+        // personagens = personagens.filter(function(p){
+        //     return p !== 'Darth Vader'
+        // })
+
+    // Filtra somente o item 'Mestre Yoda'
+        // personagens = personagens.filter(function(p){
+        //     return p === 'Mestre Yoda'
+        // })
+
+        // console.log(personagens)
+
+// Controles de Repetição (Loops)
+    // OBSERVAÇÃO: 
+        // Para trabalhar com objetos, 
+        // é só chamar o objeto e concatenar
+        //  com a função que eu desejo usar
+
+var personagens = ['Mestre Yoda', 'Luke Skywalker', 'Princesa Leia', 'Darth Vader']
+
+personagens.forEach
