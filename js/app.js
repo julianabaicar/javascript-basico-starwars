@@ -203,3 +203,11 @@ var personagens = ['Mestre Yoda', 'Luke Skywalker', 'Princesa Leia', 'Darth Vade
             // console.log(yoda)
             // yoda.mostraIdade()
             // Correto em JavaScript é trabalhar com o nome assim "mostraIdade" sem utilizar underline
+
+
+
+// CONSTANTES //
+// diferente do Var ela não pode ser alterada ao longo do teste
+
+    // const nome = 'Darth Vader'
+    // console.log(nome)
