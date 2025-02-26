@@ -211,3 +211,6 @@ var personagens = ['Mestre Yoda', 'Luke Skywalker', 'Princesa Leia', 'Darth Vade
 
     // const nome = 'Darth Vader'
     // console.log(nome)
+
+
+    
