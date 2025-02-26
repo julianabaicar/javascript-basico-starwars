@@ -178,3 +178,28 @@ var personagens = ['Mestre Yoda', 'Luke Skywalker', 'Princesa Leia', 'Darth Vade
     //     // codigo será executado até a condição retornar false
     // }
 
+
+
+// OBJETOS -> são flexíveis e podem ser chamados de Super Variáveis//
+
+    // você pode declarar assim:
+            // var yoda = {}
+
+            // yoda.nome  = 'Mestre Yoda'
+            // yoda.idade = 100
+            // yoda.jedi  = true
+
+    // ou pode declarar assim, com os itens dentro do objeto:
+            // var yoda = {
+            //     nome: 'Mestre Yoda',
+            //     idade: 100,
+            //     jedi: true,
+            //     mostraIdade: function() {
+            //         console.log(`A idade do ${this.nome} é ${this.idade}`)
+            //         // para chamar as variáveis dentro do console.log é necessário utilizar apostrofe
+            //     }
+            // }
+
+            // console.log(yoda)
+            // yoda.mostraIdade()
+            // Correto em JavaScript é trabalhar com o nome assim "mostraIdade" sem utilizar underline
