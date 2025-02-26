@@ -160,4 +160,21 @@ document.getElementById('user-name').innerHTML = userName
 
 var personagens = ['Mestre Yoda', 'Luke Skywalker', 'Princesa Leia', 'Darth Vader']
 
-personagens.forEach
+// exemplo de for, chamo o objeto concateno com a função ForEach
+    // personagens.forEach(function(p){
+        // console.log(p)
+    // })
+
+// outra forma de passar o array pelo loopin com for
+    // for (var i in personagens)
+    // {
+    //     console.log(personagens [i])
+    // }
+
+// forma numero 3 de passar o array por um loopin for, que é o mais comum
+// porém, é pouco usado por QAs
+    // for (var i = 0; i<= 10; i ++) {
+    //     console.log(i)
+    //     // codigo será executado até a condição retornar false
+    // }
+
