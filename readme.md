@@ -6,6 +6,10 @@
 
 Este projeto explora conceitos fundamentais do JavaScript no contexto de Quality Assurance (QA), combinando tecnologias como Vue.js, HTML e CSS. A aplicação permite interação com uma lista de personagens de Star Wars, oferecendo funcionalidades como busca, remoção e curtidas. O projeto visa aprimorar a compreensão da programação client-side e sua aplicação na automação de testes, contribuindo para o desenvolvimento de habilidades em QA e testes automatizados.
 
+## Resultado:
+
+![Resultado do projeto javascript-basico-starwars](https://github.com/user-attachments/assets/8a0c5d14-62e0-480d-9c95-49554e076963)
+
 
 ### Como executar no seu navegador:
 
@@ -19,7 +23,6 @@ Este projeto explora conceitos fundamentais do JavaScript no contexto de Quality
 3. ``` index.html ```: Estrutura a interface do projeto, integrando Vue.js para exibição dinâmica dos personagens.
 4. ``` styles.css ```: Define a estilização da interface, garantindo um visual coeso e responsivo.
 5. ``` vue.js ```: Biblioteca Vue.js utilizada no projeto para a interatividade e manipulação de estados.
-
 
 ## Tecnologias utilizadas:
 
