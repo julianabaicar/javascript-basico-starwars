@@ -9,9 +9,11 @@
 <body>
     <!-- Div principal -->
     <div id="app">
-
-        <h1>Personagens do Star Wars Lego</h1>
-        <small>Olá, <span id="user-name"></span></small>
+        <!-- chama o objeto do java script, 
+         reduzindo quase que 100% a necessidade
+          de muitos ids -->
+        <h1>{{ title }}</h1>
+        <small>Olá, {{ userName }}</small>
 
         <div class="characters">
             <div class="item">
@@ -62,9 +64,8 @@
 
     </div>
 
-
-
     <!-- Propriedade scr= origem -->
+    <script type="text/javascript" src="js/vue.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
