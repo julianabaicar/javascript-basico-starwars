@@ -15,17 +15,22 @@
 <body>
     <!-- Div principal -->
     <div id="app">
-        <!-- chama o objeto do java script, 
-         reduzindo quase que 100% a necessidade
-          de muitos ids -->
-        <h1>{{ title }}</h1>
-        <small>Olá, {{ userName }}</small>
 
-        <form>
-            <input placeholder="Busca por nome..." v-model="searchName" />
-            <button type="button" @click="search">Buscar</button>
-            <!-- button dentro do formulario deve submeter/processamento do formulario a pagina a algum lugar -->
-        </form>
+        <div class="top">
+            <div>
+                <!-- chama o objeto do java script, 
+                reduzindo quase que 100% a necessidade
+                de muitos ids -->
+                <h1>{{ title }}</h1>
+                <small>Olá, {{ userName }}</small>
+            </div>
+    
+            <form>
+                <input placeholder="Busca por nome..." v-model="searchName" />
+                <button type="button" @click="search">Buscar</button>
+                <!-- button dentro do formulario deve submeter/processamento do formulario a pagina a algum lugar -->
+            </form>
+        </div>
 
         <div class="characters">
             <div class="item" v-for="item of characters">
