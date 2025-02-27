@@ -57,6 +57,17 @@ const App = new Vue({
             alert(`O personagem ${userName} recebeu um like!`)
         },
 
+        // simulação de exclusão, o correto, quando se trabalha com api rest é de fato excluir o item
+        remove (id) {
+            const list = this.characters
+
+            const result = list.filter(item => {
+                return item.id !== id
+            })
+
+            this.characters = result
+        },
+
         search () {
 
             if (this.searchName === '') {
