@@ -50,10 +50,31 @@ const App = new Vue({
         title: 'Star Wars Lego',
         userName: 'Juliana',
         characters: LIST,
+        searchName: ''
     },
     methods: {
         like(userName) {
             alert(`O personagem ${userName} recebeu um like!`)
+        },
+
+        search () {
+
+            if (this.searchName === '') {
+                return alert('O campo de busca é obrigatório.')
+            }
+
+            const list = this.characters = LIST
+            // obs: no vuejs a função 'function' não é 
+            // entendida o correto é usá-la com o ponteiro => como demonstrado abaixo
+            const result = list.filter(item => {
+                return item.nome === this.searchName
+            })
+
+            if (result.length <= 0) {
+                alert('Nenhum registro encontrado.')
+            } else {
+                this.characters = result
+            }
         }
     }
 })
