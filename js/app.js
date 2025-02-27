@@ -49,6 +49,11 @@ const App = new Vue({
     data: {
         title: 'Star Wars Lego',
         userName: 'Juliana',
-        characters: LIST
+        characters: LIST,
+    },
+    methods: {
+        like(userName) {
+            alert(`O personagem ${userName} recebeu um like!`)
+        }
     }
 })
